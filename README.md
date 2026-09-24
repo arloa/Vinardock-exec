@@ -6,6 +6,7 @@ Prebuilt executables for **linux/amd64** (compiled on Ubuntu 24.04).
 |---|---|
 | `vinardock-linux-amd64` | Vinardock molecular docking (Vinardo scoring, PSO-MC swarm). Requires `libstdc++`, `libgomp` (standard on Ubuntu/Debian).|
 | `obabel-linux-amd64` | Open Babel `obabel`, statically linked. No dependencies beyond glibc + zlib. |
+| `param/` | Vinardo parameter tables required by `vinardock` at runtime. Point the binary at them with `--scoring.table param/param.dat` and `--scoring.tableTxT param/param.TxT.dat`. |
 
 ## Download
 
